@@ -37,7 +37,7 @@ public class DisassembleDriver {
 			test.getCodeSegment(testArray);
 			test.writeToASM(pathToOut);
 			}
-		else if(Integer.valueOf(key) == 1){
+		else if(Integer.valueOf(key) == 2){
 			AssemblyToJava test = new AssemblyToJava(pathToFile); 
 			String[] testArray = test.readFile();
 			test.javaStart();
